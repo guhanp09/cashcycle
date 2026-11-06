@@ -1,0 +1,93 @@
+{
+  "checks_passed": 28,
+  "checks": [
+    "All numerical metrics are finite",
+    "Generated results match the current analytical source files",
+    "PDF report has a valid document header",
+    "Analysis includes substantive methods and limitations",
+    "cash_plan.xlsx workbook structure",
+    "cash_plan.xlsx has no cached Excel errors in xl/worksheets/sheet1.xml",
+    "cash_plan.xlsx has no broken references in xl/worksheets/sheet1.xml",
+    "cash_plan.xlsx has no cached Excel errors in xl/worksheets/sheet2.xml",
+    "cash_plan.xlsx has no broken references in xl/worksheets/sheet2.xml",
+    "cash_plan.xlsx has no cached Excel errors in xl/worksheets/sheet3.xml",
+    "cash_plan.xlsx has no broken references in xl/worksheets/sheet3.xml",
+    "cash_plan.xlsx has no cached Excel errors in xl/worksheets/sheet4.xml",
+    "cash_plan.xlsx has no broken references in xl/worksheets/sheet4.xml",
+    "cash_plan.xlsx has no cached Excel errors in xl/worksheets/sheet5.xml",
+    "cash_plan.xlsx has no broken references in xl/worksheets/sheet5.xml",
+    "cash_plan.xlsx has no cached Excel errors in xl/worksheets/sheet6.xml",
+    "cash_plan.xlsx has no broken references in xl/worksheets/sheet6.xml",
+    "Receivables control reconciles within one paisa",
+    "base has thirteen weeks",
+    "base cash roll-forward reconciles",
+    "base collections are nonnegative",
+    "downside has thirteen weeks",
+    "downside cash roll-forward reconciles",
+    "downside collections are nonnegative",
+    "improvement has thirteen weeks",
+    "improvement cash roll-forward reconciles",
+    "improvement collections are nonnegative",
+    "Excel plan contains live cash-roll-forward formulas"
+  ],
+  "workbooks": [
+    {
+      "file": "cash_plan.xlsx",
+      "formula_count": 274
+    }
+  ],
+  "artifacts": {
+    "analysis.md": {
+      "bytes": 2241,
+      "sha256": "21c81b122e5e3402400f2f3e2fef67e3ec1a8cf1ee18faa032c10927b5c03055"
+    },
+    "analysis.pdf": {
+      "bytes": 3301,
+      "sha256": "4dc93db8e30f9a81b8bbbe9b62f104b986e58f8e15685c35fcbf027fb6a21df3"
+    },
+    "backtests.csv": {
+      "bytes": 22681,
+      "sha256": "637df7deea4f4aa9e0f098febec6c92c1a7f379cb3b7aecc7c1319b3387b4374"
+    },
+    "build_manifest.json": {
+      "bytes": 743,
+      "sha256": "f4f9f48e8448b5f5aad64ffb03e230e58c48fb6066549a26f979e3a45f043880"
+    },
+    "cash_plan.xlsx": {
+      "bytes": 145665,
+      "sha256": "c92fee0615c5cad0ee6c048e2bf32ff0a210a271ab871bc3ddd99452bb38136e"
+    },
+    "cash_scenarios.html": {
+      "bytes": 4861819,
+      "sha256": "fe0287210e7d612beb3f68ebcc537e1c438a37378e5da94db87b0852aef4c8d0"
+    },
+    "collection_priorities.csv": {
+      "bytes": 22689,
+      "sha256": "4d35ba3a29954a5138ad2e63acff15286d0d17797a2dfe55daf544efe63537e8"
+    },
+    "forecast_base.csv": {
+      "bytes": 2054,
+      "sha256": "f701bf7672c137900f3d03fcc5001d08c07eb3c0d7d0dbd22940e9cb03fdde54"
+    },
+    "forecast_downside.csv": {
+      "bytes": 2040,
+      "sha256": "47280cf5f9ef9dee1e5cbab8ada9a131229be9aad1f51bba0e1a1800e34e33ea"
+    },
+    "forecast_improvement.csv": {
+      "bytes": 2053,
+      "sha256": "b935c4c18a9b05b5b5bf1095fe364841cd36deb24be6404ca1e72e25050f5850"
+    },
+    "metrics.json": {
+      "bytes": 678,
+      "sha256": "92ebde694588946d09355e38b22305287968eabcea4fef29ff463666ac246b0f"
+    },
+    "receivables_ageing.csv": {
+      "bytes": 271980,
+      "sha256": "74c9e356d4891de21764125993f716fd02a49ebbf3382bd6c00fc4560c62933f"
+    },
+    "source_manifest.json": {
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    }
+  }
+}

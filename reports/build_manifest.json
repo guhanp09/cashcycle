@@ -1,0 +1,13 @@
+{
+  "generated_at_utc": "2026-11-06T09:30:12.529852+00:00",
+  "python": "3.12.7",
+  "platform": "macOS-26.3-arm64-arm-64bit",
+  "source_code_sha256": {
+    "src/cashcycle/__init__.py": "2c3c7e1527f84e7207d8c802c5cbc98f7b193ac9048be8bd8f5995f8a862ab96",
+    "src/cashcycle/app.py": "f7d710a31505264887eb4eab5e15cf8bf8b17a73aa2904d3ad676b4de21f1888",
+    "src/cashcycle/cli.py": "beaaaae9cbbaf05549643dab9b9af67e72f1aa4692a3d2d7a2deecba4f1a672c",
+    "src/cashcycle/core.py": "3a956d1f075328a66b23a8c72f1aa28d96b81155612935872db12e32190a2797",
+    "src/cashcycle/io.py": "663f4f0fd647f96163b1e8446ffc4fc9f39a69e543e110eff27537e66106acd6",
+    "src/cashcycle/pipeline.py": "dadeaa474152759f83330143c186e3c2ee30b920a773f3045ffa43babdf9486d"
+  }
+}

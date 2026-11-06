@@ -1,0 +1,25 @@
+{
+  "as_of": "2025-12-31",
+  "data_kind": "fully simulated",
+  "invoices": 3916,
+  "opening_cash": 1763931.33,
+  "receivables": 1428839.9200000004,
+  "ledger_reconciliation_difference": -2.0954757928848267e-09,
+  "minimum_base_cash": -353987.2988541252,
+  "backtests": [
+    {
+      "method": "behaviour",
+      "weekly_receipt_mae": 16654.902840123726,
+      "closing_cash_mae": 54936.617965026424,
+      "missed_shortfalls": 0,
+      "false_shortfall_warnings": 0
+    },
+    {
+      "method": "due_date",
+      "weekly_receipt_mae": 86091.5770746342,
+      "closing_cash_mae": 381913.04826343065,
+      "missed_shortfalls": 17,
+      "false_shortfall_warnings": 0
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "project": "cashcycle",
+  "checks_passed": 28,
+  "workbooks": [
+    {
+      "file": "cash_plan.xlsx",
+      "formula_count": 274
+    }
+  ]
+}

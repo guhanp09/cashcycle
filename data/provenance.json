@@ -1,0 +1,9 @@
+{
+  "kind": "fully simulated business ledger",
+  "seed": 73,
+  "currency": "INR",
+  "dates": "2024-01-01 to 2026-06-30 invoice issuance; payments can occur later",
+  "opening_cash_2024_01_01": 200000,
+  "committed_capex": "INR 2,200,000 equipment purchase committed 2025-10-15, paid 2026-01-20; capital cash outflow, not operating expense",
+  "caveats": "Generated group payment patterns are known to the simulation author; backtests are synthetic experiments, not external validation."
+}
